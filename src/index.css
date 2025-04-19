@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Jost", sans-serif;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: aqua;
+    margin: ;
+  }
+}
