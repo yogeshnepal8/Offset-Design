@@ -7,6 +7,8 @@ import Testimonial from "../components/Testimonial.jsx";
 import RecentBlogs from "../components/RecentBlogs.jsx";
 import { Link } from "react-router";
 
+import Tikathali from "../assets/tikathali.png";
+
 function Home() {
   const containerVariants = {
     hidden: {},
@@ -96,9 +98,9 @@ function Home() {
           animate="visible"
           className="flex flex-wrap lg:flex-row gap-5 justify-center lg:gap-10 lg:py-5"
         >
-          <WhyUs text={"Planning"} img={"./src/assets/tikathali.png"} />
-          <WhyUs text={"Design"} img={"./src/assets/tikathali.png"} />
-          <WhyUs text={"Build"} img={"./src/assets/tikathali.png"} />
+          <WhyUs text={"Planning"} img={Tikathali} />
+          <WhyUs text={"Design"} img={Tikathali} />
+          <WhyUs text={"Build"} img={Tikathali} />
         </motion.div>
       </div>
       <div className="Services ">
