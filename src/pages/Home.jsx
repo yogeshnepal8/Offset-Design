@@ -5,6 +5,7 @@ import Faq from "../components/Faq";
 import { faqs, testimonials, titles } from "../assets/Faqs.js";
 import Testimonial from "../components/Testimonial.jsx";
 import RecentBlogs from "../components/RecentBlogs.jsx";
+import { Link } from "react-router";
 
 function Home() {
   const containerVariants = {
@@ -72,10 +73,10 @@ function Home() {
         </p>
         <div className="flex gap-4 justify-center">
           <button className="border border-textSecondary text-text rounded-lg hover:bg-textSecondary/40 transition duration-300 ease-in px-4 py-2 font-bold">
-            Portfolio
+            <Link to="/portfolio">Portfolio</Link>
           </button>
           <button className="border border-textSecondary text-text rounded-lg bg-textSecondary/40 hover:bg-textSecondary/0 transition duration-300 ease-in px-4 py-2 font-bold">
-            Contact Us
+            <Link to="/contact">Contact Us</Link>
           </button>
         </div>
       </div>
@@ -95,9 +96,9 @@ function Home() {
           animate="visible"
           className="flex flex-wrap lg:flex-row gap-5 justify-center lg:gap-10 lg:py-5"
         >
-          <WhyUs text={"Planning"} img={"tikathali.png"} />
-          <WhyUs text={"Design"} img={"tikathali.png"} />
-          <WhyUs text={"Build"} img={"tikathali.png"} />
+          <WhyUs text={"Planning"} img={"./src/assets/tikathali.png"} />
+          <WhyUs text={"Design"} img={"./src/assets/tikathali.png"} />
+          <WhyUs text={"Build"} img={"./src/assets/tikathali.png"} />
         </motion.div>
       </div>
       <div className="Services ">
@@ -125,7 +126,7 @@ function Home() {
           View more
         </p>
       </div>
-      <div className="testimonials px-5 lg:px-[10%] py-4 ">
+      <div className="testimonials lg:px-[10%] py-10 bg-text/10 mx-5 lg:mx-[10%] lg:mt-10 p-[5px] my-10 rounded-lg">
         <h2 className="text-2xl text-bold text-textSecondary  lg:text-4xl lg:mt-5">
           What our Clients Say
         </h2>

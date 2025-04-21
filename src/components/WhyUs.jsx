@@ -18,7 +18,7 @@ function WhyUs({ img, text }) {
       >
         <img
           className="w-[200px] lg:h-[400px] lg:w-[320px] h-[250px] rounded-lg hover:shadow-lg hover:shadow-text/40"
-          src={`./src/assets/${img}`}
+          src={img}
           alt={img}
         />
       </motion.div>

@@ -12,7 +12,7 @@ function Footer() {
           </h2>
           <div className="flex gap-4">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/offsetdesign1"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -41,7 +41,7 @@ function Footer() {
           <p>offsetdesign4@gmail.com</p>
 
           <h2 className="text-xl font-bold text-textSecondary mt-4">
-            Location  
+            Location
           </h2>
           <p>Gatthaghar, Bhaktapur</p>
         </div>

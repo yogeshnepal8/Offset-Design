@@ -33,7 +33,7 @@ function Portfolio() {
       </div>
 
       <button className="mt-5 border border-textSecondary text-text rounded-lg hover:bg-textSecondary/40 transition duration-300 ease-in px-4 py-2 font-bold">
-        View More
+        <a href="https://www.facebook.com/offsetdesign1">View More</a>
       </button>
 
       <p className="text-regular italic text-text/40 py-3 my-4 px-10 lg:py- lg:px-[20%]">
