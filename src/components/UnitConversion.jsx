@@ -27,7 +27,7 @@ function UnitConversion() {
   }, [inputValue, selectedUnit]);
 
   return (
-    <div className="shadow-sm w-full max-w-xl mx-auto p-4">
+    <div className="shadow-sm p-4">
       <p className="text-2xl font-bold text-textSecondary mb-4">
         Unit Converter
       </p>
