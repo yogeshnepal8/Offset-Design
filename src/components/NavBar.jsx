@@ -55,6 +55,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="cursor-pointer hover:text-textSecondary duration-300 font-medium">
+          <Link to="/tools" onClick={handleLinkClick}>
+            Tools
+          </Link>
+        </li>
+        <li className="cursor-pointer hover:text-textSecondary duration-300 font-medium">
           <Link to="/contact" onClick={handleLinkClick}>
             Contact
           </Link>
