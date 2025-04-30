@@ -61,7 +61,7 @@ function Home() {
   return (
     <main className="text-text text-center">
       <div className="hero-section mt-20 lg:mt-40 ">
-        <h1 className="text-4xl lg:text-7xl">
+        <h1 className="text-3xl lg:text-7xl">
           <span className="">DESIGN.</span>
           <span className="text-text px-2">BUILD.</span>
           <span>DELIVER.</span>
