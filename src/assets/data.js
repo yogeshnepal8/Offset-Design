@@ -1,11 +1,11 @@
 const datas = [
   //Plaster work
   {
-    title: "Internal and external Plaster work",
+    title: "Internal and external Plaster work(1:4)",
     unit: "sqm",
     materials: {
-      Cement: 20,
-      Sand: 1.03,
+      "Cement (50 kg bag)": 0.1076,
+      "Sand (cum)": 0.0146,
     },
   },
   //painting work
