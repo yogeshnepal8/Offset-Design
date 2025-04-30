@@ -21,7 +21,7 @@ function Portfolio() {
           creating spaces that inspire and endure.
         </p>
       </div>
-      <div className="flex flex-wrap gap-10 items-center justify-center lg:mx-[10%] text-text text-left">
+      <div className="flex px-4 flex-wrap gap-10 items-center justify-center lg:mx-[10%] text-text text-left">
         {PortfolioData.map((item, index) => (
           <PortfolioCard
             image={item.image}

@@ -52,7 +52,7 @@ function ToolsEstimationTitle() {
             Choose Title
           </label>
           <select
-            className="border p-1 rounded max-w-[240px]"
+            className="border p-1 rounded max-w-[120px]"
             onChange={handleSelectionChange}
           >
             <option value="">-- Select --</option>
@@ -120,7 +120,7 @@ function ToolsEstimationTitle() {
                             handleRateChange(material, e.target.value)
                           }
                           placeholder="Enter rate"
-                          className="border focus:border-textSecondary p-1 w-full rounded bg-transparent"
+                          className="border focus:border-textSecondary p-1 w-[60px] lg:w-full rounded bg-transparent"
                         />
                       </td>
                       <td className="px-4 py-2 border">{amount.toFixed(2)}</td>
