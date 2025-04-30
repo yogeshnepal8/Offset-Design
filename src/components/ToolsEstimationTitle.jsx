@@ -43,7 +43,7 @@ function ToolsEstimationTitle() {
     : 0;
 
   return (
-    <div className="p-4">
+    <div className="py-4">
       <p className="text-2xl font-bold text-textSecondary mb-4">Estimation</p>
       <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:gap-8">
         {/* Title + Dropdown */}
