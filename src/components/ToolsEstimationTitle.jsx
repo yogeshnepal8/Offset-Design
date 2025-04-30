@@ -52,7 +52,7 @@ function ToolsEstimationTitle() {
             Choose Title
           </label>
           <select
-            className="border p-1 rounded min-w-[120px]"
+            className="border p-1 rounded max-w-[240px]"
             onChange={handleSelectionChange}
           >
             <option value="">-- Select --</option>
