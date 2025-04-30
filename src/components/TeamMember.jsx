@@ -17,7 +17,7 @@ function TeamMember({ image, name, designation, role }) {
         className="flex justify-center items-center"
       >
         <img
-          className="w-[200px] lg:h-[200px] lg:w-[200px] object-cover h-[300px] rounded-full hover:shadow-lg hover:shadow-text/40"
+          className="w-[200px] lg:h-[200px] lg:w-[200px] object-cover h-[200px] rounded-full hover:shadow-lg hover:shadow-text/40"
           src={image}
           alt={name}
         />
