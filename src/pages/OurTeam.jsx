@@ -1,5 +1,7 @@
 import React from "react";
 import TeamMember from "../components/TeamMember";
+import yogesh from "../assets/yogesh.JPG";
+import rabi from "../assets/rabi.jpg";
 
 function OurTeam() {
   return (
@@ -7,7 +9,7 @@ function OurTeam() {
       {/* CEO Section */}
       <div className="flex flex-col lg:gap-10 lg:flex-row items-center w-full px-5 lg:px-[20%] text-left text-text mt-4">
         <img
-          src="../src/assets/yogesh.JPG"
+          src={yogesh}
           alt="Yogesh Nepal"
           className="w-[200px] h-[200px] object-cover flex-none my-10 rounded-full"
         />
@@ -36,7 +38,7 @@ function OurTeam() {
       {/* Managing Director Section */}
       <div className="flex flex-col lg:gap-10 lg:flex-row-reverse items-center w-full px-5 lg:px-[20%] text-left text-text mt-4">
         <img
-          src="../src/assets/rabi.jpg"
+          src={rabi}
           alt="Rabi Silwal"
           className="w-[200px] h-[200px] object-cover flex-none my-10 rounded-full"
         />
