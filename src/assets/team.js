@@ -6,7 +6,7 @@ export const team = [
   {
     name: "Yogesh Nepal",
     role: "Planning, Designing, visualization",
-    designation: "Architect",
+    designation: "Civil Engineer",
     image: yogesh,
   },
   {
