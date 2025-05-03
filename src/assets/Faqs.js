@@ -1,3 +1,11 @@
+import rabia from "./rabia.jpg";
+import sita from "./sita.jpg";
+import anil from "./anil.jpg";
+import municipal from "./municipal.jpg";
+import design from "./designandplanning.jpg";
+import construction from "./constructionandsupervision.jpg";
+import { image } from "framer-motion/client";
+
 export const faqs = [
   {
     question: "What services do you offer?",
@@ -44,23 +52,23 @@ export const faqs = [
 
 export const testimonials = [
   {
-    name: "Rabi Silwal",
+    name: "Kumar Bhattarai",
     location: "Tikathali, Lalitpur",
-    image: "/assets/tikathali.png",
+    image: rabia,
     quote:
       "From the very beginning, their professionalism, creativity, and attention to detail exceeded our expectations. The project was delivered on time, and the quality truly speaks for itself.",
   },
   {
     name: "Sita Sharma",
     location: "Baneshwor, Kathmandu",
-    image: "/assets/baneshwor.png",
+    image: sita,
     quote:
       "I was impressed with how smoothly everything went. The team communicated every step clearly and brought my vision to life even better than I imagined.",
   },
   {
     name: "Anil Thapa",
     location: "Pokhara, Kaski",
-    image: "/assets/pokhara.png",
+    image: anil,
     quote:
       "The design and execution were flawless. Their dedication and craftsmanship are truly commendable. I’m extremely satisfied with how my home turned out. Highly recommended!",
   },
@@ -69,16 +77,19 @@ export const testimonials = [
 export const titles = [
   {
     title: "Municipal Process",
+    image: municipal,
     content:
       "Understanding the local municipal requirements is crucial before beginning any construction work. This includes zoning, permits, and regulatory approvals.",
   },
   {
     title: "Design & Planning",
+    image: design,
     content:
       "A well-structured design and planning phase ensures the project stays within budget, meets client expectations, and aligns with local building codes.",
   },
   {
     title: "Construction & Supervision",
+    image: construction,
     content:
       "This phase involves the actual building process, where careful supervision is required to ensure quality control, timely delivery, and worker safety.",
   },

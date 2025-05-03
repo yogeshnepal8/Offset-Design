@@ -122,7 +122,7 @@ function Home() {
         >
           {titles.map((item, index) => (
             <motion.div key={index} variants={blogCardVariants}>
-              <RecentBlogs image="blog-sample.png" title={item.title} />
+              <RecentBlogs image={item.image} title={item.title} />
             </motion.div>
           ))}
         </motion.div>

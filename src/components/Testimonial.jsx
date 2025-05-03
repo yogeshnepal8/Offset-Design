@@ -5,7 +5,7 @@ function Testimonial({ name, location, image, quote }) {
     <div className="h-[300px] w-[240px] border border-text/30 rounded-lg mx-2">
       <div className="flex items-center h-1/4 border-b border-text/30">
         <img
-          src={`./src/assets/${image}`}
+          src={image}
           alt={name}
           className="w-[60px] h-[60px] object-cover rounded-full mx-4"
         />
