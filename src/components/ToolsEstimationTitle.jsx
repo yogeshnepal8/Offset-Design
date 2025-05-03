@@ -52,7 +52,7 @@ function ToolsEstimationTitle() {
             Choose Title
           </label>
           <select
-            className="border p-1 rounded max-w-[120px]"
+            className="border p-1 rounded max-w-[200px]"
             onChange={handleSelectionChange}
           >
             <option value="">-- Select --</option>
@@ -87,14 +87,14 @@ function ToolsEstimationTitle() {
 
       {/* MATERIAL TABLE */}
       {selectedWork && (
-        <div className="mt-6 overflow-x-auto">
+        <div className="mt-6 overflow-x-hidden">
           <table className="min-w-full border border-textSecondary text-left">
             <thead className="bg-gray-100/60 ">
               <tr>
-                <th className="px-4 py-2 border">Material</th>
-                <th className="px-4 py-2 border">Material Required</th>
-                <th className="px-4 py-2 border">Rate</th>
-                <th className="px-4 py-2 border">Amount</th>
+                <th className="px-2 py-2 border">Material</th>
+                <th className="px-2 py-2 border">Material Required</th>
+                <th className="px-2 py-2 border">Rate</th>
+                <th className="px-2 py-2 border">Amount</th>
               </tr>
             </thead>
             <tbody className="text-text">
@@ -106,13 +106,13 @@ function ToolsEstimationTitle() {
                   );
                   return (
                     <tr key={index}>
-                      <td className="px-4 py-2 border capitalize">
+                      <td className="px-2 py-2 border capitalize">
                         {material}
                       </td>
-                      <td className="px-4 py-2 border">
+                      <td className="px-2 py-2 border">
                         {totalQty.toFixed(2)}
                       </td>
-                      <td className="px-4 py-2 border">
+                      <td className="px-1 py-2 border">
                         <input
                           type="number"
                           value={rates[material] || ""}
@@ -120,10 +120,10 @@ function ToolsEstimationTitle() {
                             handleRateChange(material, e.target.value)
                           }
                           placeholder="Enter rate"
-                          className="border focus:border-textSecondary p-1 w-[60px] lg:w-full rounded bg-transparent"
+                          className="border focus:border-textSecondary p-1 w-[80px] lg:w-full rounded bg-transparent overflow-x-hidden"
                         />
                       </td>
-                      <td className="px-4 py-2 border">{amount.toFixed(2)}</td>
+                      <td className="px-2 py-2 border">{amount.toFixed(2)}</td>
                     </tr>
                   );
                 }
