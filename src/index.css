@@ -16,4 +16,8 @@
     color: aqua;
     margin: ;
   }
+
+  .styled-input {
+    @apply border p-1 focus:text-black rounded-md font-normal w-full;
+  }
 }
